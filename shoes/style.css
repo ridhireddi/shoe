@@ -1,0 +1,191 @@
+
+*{
+  border: 0;
+  padding: 0%;
+
+}
+
+h1{
+    color: rgb(99, 175, 137);
+    border-bottom: 5px dotted rgba(60, 100, 60, 0.936);
+}
+/* .para{
+    color: rgb(174, 213, 247);
+    
+} */
+ 
+ .nav{
+    opacity: 0.8;
+    flex: auto;
+    background-color: rgb(219, 236, 236);
+    padding: 15px;
+
+ }
+
+ p::first-letter { 
+
+  color:coral; 
+  
+  font-size: 1.3em; 
+  
+  font-weight: bold; 
+  
+  line-height: 1; 
+ }
+ul{
+  list-style-type:none;
+}
+ li::first-line{
+
+  color: blue;
+  text-decoration: underline gray;
+  line-height: 1;
+}
+
+li::selection {
+  color:rgb(251, 249, 249);
+  background-color: rgb(15, 195, 239);
+  line-height: 1;
+}
+li::marker {
+  color: cornflowerblue;
+  content: '<> ';
+  font-size: 1.1em;
+}
+
+
+
+ button{
+
+    padding: auto;
+    
+
+
+ }
+     
+
+  .fot{
+    background-color: aliceblue;
+  }
+  #prc{
+    background-color: aliceblue;
+    padding:10px;
+    border: 2px solid;
+    margin:auto ;
+    max-width: 50%;
+  }
+
+.images:hover{
+    /* padding: 20px; */
+    transform: scale(1.1);
+    box-shadow: 5px 5px 5px rgb(57, 80, 73);
+    
+    opacity: 1;
+    
+    /*  border-radius: 20px; */
+} 
+
+  
+  /* a:hover{
+    
+
+  } */
+
+  
+a{
+    text-decoration: none;
+}
+
+    .button::after{
+        background-color: burlywood;
+        color: brown;
+    }
+
+ .images{
+    margin: 5%;
+    opacity: 0.8;
+ }  
+.head{
+  display: inline-flex;
+  flex: 5 1 300px;
+  border-radius: 100px;
+  border: 1px solid rgb(42, 18, 224);
+  overflow: hidden;
+}
+.icon{
+  padding: 5px;
+}
+.searchButton{
+  color: #150202;
+  background: #eeebeb;
+  padding: 5px;
+  border-radius: 4px;
+  border: 0;
+
+}
+
+.container{
+  /* border: 2px solid black; */
+  padding: 30px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: stretch;
+}
+.row{
+display: flex;
+align-items: stretch;
+
+}
+.row.label{
+  flex: 0 0 auto;
+  font-family: 'Courier New', Courier, monospace;
+}
+.row.bad{
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+}
+.row.shoes{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.men{
+  background: red;
+}
+.women{
+  background: pink;
+}
+.kids{
+  background: blue;
+}
+
+ /* .h2{
+
+  padding: 0%;
+  border: 0cap;
+  margin: 0%;
+} */
+
+#goode:active{
+  background-color: rgb(11, 249, 178);
+  transform: scale(0.99);
+}
+
+#tips::before{
+    background: darkkhaki;
+    color:darkslategray;
+    content: "Tip:";
+    padding-left: 3px;
+    padding-right: 5px;
+    border-radius: 10%;
+}
+
+#tips::after{
+    background:darkkhaki;
+    color:darkslategray;
+    content: "!!";
+    padding-right: 5px;
+    border-radius: 20%;
+}
